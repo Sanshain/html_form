@@ -13,9 +13,7 @@ HtmlForm - это модифицированный вариант ModelForm дл
    Применение: 
    
        class MyForm(HTMLabelForm):
-        """
-        Венец труда
-        """
+
         class Meta:
           model = MyModel
           fields = ("username", "email")
