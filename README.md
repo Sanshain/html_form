@@ -22,5 +22,5 @@ HtmlForm - это модифицированный вариант ModelForm дл
           super(SignUpForm, self).__init__(*args, **kwargs)
           HTMLabelForm.tag = 'div' 
           self.submit = u'my_submit'
-        
+          self.css_class = u'css_class_for_form'
         
