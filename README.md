@@ -23,4 +23,9 @@ HtmlForm - это модифицированный вариант ModelForm дл
           HTMLabelForm.tag = 'div' 
           self.submit = u'my_submit'
           self.css_class = u'css_class_for_form'
+          
+          
+  В шаблоне: 
+  
+        {{ MyForm.as_h }}
         
